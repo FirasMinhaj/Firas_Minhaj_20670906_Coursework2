@@ -3,6 +3,15 @@
 
 
 %% PRELIMINARY TASK - ARDUINO AND GIT INSTALLATION [10 MARKS]
+clear a
+a = arduino("COM3","Uno");
+for i = 1:10
+    writeDigitalPin(a,"D2",1)
+    pause(0.5)
+    writeDigitalPin(a,"D2",0)
+    pause(0.5)
+end
+
 
 % Insert answers here
 
