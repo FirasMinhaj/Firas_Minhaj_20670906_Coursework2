@@ -1,5 +1,5 @@
-% Insert name here
-% Insert email address here
+% Firas Mohammed Minhaj
+% egyfm6@nottingham.ac.uk
 
 
 %% PRELIMINARY TASK - ARDUINO AND GIT INSTALLATION [10 MARKS]
