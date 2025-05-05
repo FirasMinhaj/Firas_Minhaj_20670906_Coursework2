@@ -27,21 +27,21 @@ Tc = 0.01;
 % Zero Degree Voltage in V
 Vzero = 0.5; 
 % Number of Readings taken by sensors.
-NumberofReadings = Duration / ReadingInterval; 
+NumberofReadings = Duration ./ ReadingInterval; 
 % Array for Temperature Data
 Tdata = zeros(1 , NumberofReadings);
-%Time from 0 to 600 seconds. 
+% Time from 0 to 600 seconds. 
 time = 0:ReadingInterval:(Duration - 1);
 
-%reading voltage data from sensors, calculating temperature and recording in array every second.
+% reading voltage data from sensors, calculating temperature and recording in array every second.
 for i = 1:NumberofReadings
     voltage = readVoltage(a,"A0");
-    temp = (voltage - Vzero)/Tc;
+    temp = (voltage - Vzero)./-Tc;
     Tdata(i) = temp;
 end
 
-%Plotting graph of temperature over time with x axis and y axis labels and
-%title.
+% Plotting graph of temperature over time with x axis and y axis labels and
+% title.
 plot(time,Tdata)
 xlabel('Time (s)')
 ylabel('Temperature (Deg Celcius)')
