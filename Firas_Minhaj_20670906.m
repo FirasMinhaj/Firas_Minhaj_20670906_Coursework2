@@ -79,7 +79,9 @@ fclose(fileID);
 % Insert answers here
 
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
-
+while i == 1:NumberofReadings
+    controlLED()
+end
 % Insert answers here
 
 
