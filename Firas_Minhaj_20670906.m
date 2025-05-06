@@ -87,12 +87,21 @@ temp_monitor(a,Vzero,Tc,NumberofReadings);
 
 
 %% TASK 3 - ALGORITHMS – TEMPERATURE PREDICTION [25 MARKS]
-
+temp_prediction(a,Vzero,Tc,NumberofReadings);
 % Insert answers here
 
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
-
+% Overall, I found this coursework a challenge. I had to learn many new
+% skills to be able to complete the questions but at the same time I got to
+% learn a lot about coding in matlab. Some challenges I faced were: -
+% Connecting the arduino circuit to get correct temperature readings. - It
+% took me a while to understand how github works. - Errors would take a
+% very long time to fix. However, my main strength while completing this
+% coursework was my knowledge of coding and understanding computer
+% language. I studied python for gcse and a levels and these skills deemed
+% qquite useful when coding in matlab due to the shared similarities of the
+% language with python. A limitation for completing this coursework was the vague nature of the brief document. Some tasks could have been explained in more detail to make it easier to understand.  
 % Insert reflective statement here (400 words max)
 
 
