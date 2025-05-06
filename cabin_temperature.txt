@@ -1,35 +1,35 @@
-Data Logging Initiated - 05/05/2025
+Data Logging Initiated - 06/05/2025
 Location - Nottingham: 
 
 Minute		0
-Temperature	9.43 C
+Temperature	10.90 C
 
 Minute		1
-Temperature	50.00 C
+Temperature	33.38 C
 
 Minute		2
-Temperature	31.43 C
+Temperature	33.38 C
 
 Minute		3
-Temperature	39.25 C
+Temperature	32.89 C
 
 Minute		4
-Temperature	50.00 C
+Temperature	24.10 C
 
 Minute		5
-Temperature	50.00 C
+Temperature	28.98 C
 
 Minute		6
-Temperature	50.00 C
+Temperature	28.49 C
 
 Minute		7
-Temperature	50.00 C
+Temperature	23.12 C
 
 Minute		8
-Temperature	50.00 C
+Temperature	28.01 C
 
 Minute		9
-Temperature	45.60 C
+Temperature	25.07 C
 
 Data Logging Terminated 
 

@@ -57,6 +57,7 @@ for min = 0:(Duration/60 - 1)
     fprintf('Temperature\t%.2f C\n\n' , temperature);
 end
 
+
 fprintf('Data Logging Terminated \n\n')
 % Creating txt file named cabin_temperature to store temperature data of
 % every minute. 
@@ -79,9 +80,9 @@ fclose(fileID);
 % Insert answers here
 
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
-while i == 1:NumberofReadings
-    controlLED()
-end
+% Calling function from temp_monitor.m file. 
+temp_monitor(a,Vzero,Tc,NumberofReadings);
+
 % Insert answers here
 
 
@@ -100,4 +101,6 @@ end
 % No need to enter any answershere, but remember to:
 % - Comment the code throughout.
 % - Commit the changes to your git repository as you progress in your programming tasks.
+
+
 % - Hand the Arduino project kit back to the lecturer with all parts and in working order.
